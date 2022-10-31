@@ -10,7 +10,7 @@ int maxi (int arg1, int arg2, int arg3)
 
 int num1 = 5;
 int num2 = 9;
-int num3 = 2;
+int num3 = 6666;
 int num4 = 4;
 int num5 = 8;
 int num6 = 7;
@@ -18,10 +18,12 @@ int num7 = 19;
 int num8 = 877;
 int num9 = 89;
 
-int max1 = maxi(num1, num2, num3);
+int max = maxi(maxi(num1, num2, num3), maxi(num4, num5, num6), maxi(num7, num8, num9));
+
+/* int max1 = maxi(num1, num2, num3);
 int max2 = maxi(num4, num5, num6);
 int max3 = maxi(num8, num7, num9);
-int max = maxi(max1, max2, max3);
+int max = maxi(max1, max2, max3); */
 
 /* if (num2 > max) max = num2;
 if (num3 > max) max = num3;
